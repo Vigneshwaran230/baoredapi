@@ -1,0 +1,90 @@
+body{
+    display:flex;
+    background-color:black;
+        justify-content: space-around;
+  }
+  .userDetails{
+    display:flex;
+    justify-content: center;
+    margin-top:2px;
+    
+  }
+  .general{
+    display:flex;
+    padding:5px;
+    justify-content: space-between;
+    border-bottom:0.5px solid grey;
+    
+  }
+  .container{
+    background-color:blue;
+    max-width:550px;
+  }
+  h3{
+    text-align:center;
+    font-size:28px;
+    margin-bottom:10px;
+    font-family:sans-serif;
+  }
+  .content1para{
+    margin-bottom:5px;
+    border:0.25px solid black;
+    border-radius:20rem;
+    background-color:black;
+    color:whitesmoke;
+  }
+  .content2para {
+    margin-bottom:5px;
+      border:0.25px solid black;
+    border-radius:20rem;
+    background-color:black;
+    color:whitesmoke;
+    padding:2px;
+  }
+  .content1{
+    width:8rem;
+    text-align:center;
+    margin-right:2px;
+  }
+  .content2{
+    width:15rem;
+    text-align:center;
+  }
+  .buttons{
+    display:flex;
+        justify-content: space-between;
+  }
+  .repeat{
+    background-color:grey;
+    font-size:12px;
+  }
+  @media(max-width:415px){
+    .container{
+        width:auto;
+        margin:5px;
+    }
+    .content1{
+        width:auto;
+        text-align:center;
+        margin-right:2px;
+      }
+      .content2{
+        width:auto;
+        text-align:center;
+      }
+      .content1para{
+        margin-bottom:5px;
+        border:0.25px solid black;
+        border-radius:0.2rem;
+        background-color:black;
+        color:whitesmoke;
+      }
+      .content2para {
+        margin-bottom:5px;
+          border:0.25px solid black;
+        border-radius:0.2rem;
+        background-color:black;
+        color:whitesmoke;
+        padding:2px;
+      }
+  }
